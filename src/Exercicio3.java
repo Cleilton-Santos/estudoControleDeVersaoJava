@@ -3,10 +3,6 @@ import java.util.Scanner;
 public class Exercicio3 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        //TODO:O usuario digite um numero.
-        //TODO:O usuario digite um numero maior que o primeiro.
-        //TODO:E o usuario escolha entre par ou impar.
-        //TODO:O codigo deve informar todos os numeros pares ou impares entre o primeiro e o segundo numero em ordem decrescente incluindo os numeros digitados.
         System.out.print("Digite o primeiro número: ");
         int number = scanner.nextInt();
         while (true) {
