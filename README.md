@@ -1,18 +1,24 @@
-## Getting Started
+# Controle de Fluxo Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto reúne exercícios práticos de lógica de programação utilizando estruturas de controle de fluxo em Java. O objetivo é ajudar no aprendizado dos principais comandos de decisão e repetição, como `if`, `else`, `while` e `for`.
 
-## Folder Structure
+## Exercícios
 
-The workspace contains two folders by default, where:
+1. **Exercício 1:**  
+   Solicita ao usuário um número inteiro e informa se ele é par ou ímpar.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+2. **Exercício 2:**  
+   Pede ao usuário um número inteiro positivo e exibe uma contagem regressiva até zero.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+3. **Exercício 3:**  
+   Solicita dois números inteiros (o segundo maior que o primeiro) e pergunta se o usuário deseja ver números pares ou ímpares nesse intervalo, exibindo-os em ordem decrescente.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+4. **Exercício 4:**  
+   Pede ao usuário um número inteiro e exibe a tabuada desse número de 1 a 10.
 
-## Dependency Management
+## Como executar
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Certifique-se de ter o Java instalado em sua máquina.
+2. Compile o arquivo desejado:
+   ```sh
+   javac src/ExercicioN.java
